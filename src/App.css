@@ -1,0 +1,109 @@
+button {
+  padding: 5px 15px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #1d7e5b;
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 170px);
+}
+
+.pollution {
+  min-height: 100px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 20px;
+
+  width: 50%;
+  min-height: 200px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  font-size: 20px;
+}
+
+.login__btn {
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid black;
+  color: #000;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.login__btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#register__form {
+  width: 100%;
+  padding: 10px;
+}
+
+.register__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.table__title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+  padding: 25px;
+  word-break: normal;
+}
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-0lax {
+  text-align: center;
+  vertical-align: top;
+}
+.tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
